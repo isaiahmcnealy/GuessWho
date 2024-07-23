@@ -28,3 +28,19 @@ Here's the tech stack that's making all this magic happen:
 3. **Building the Model**: Utilizing TensorFlow/Keras to construct a convolutional neural network (CNN) with layers designed to extract and learn facial features.
 4. **Training and Evaluation**: Splitting the data into training and testing sets, then training the model to recognize faces and evaluating its performance to ensure high accuracy.
 5. **Deployment**: Once trained, the model will be deployed into various applications, enabling features like real-time face recognition and personalized user interactions.
+
+## Structure
+- `data/`: Contains raw and processed data.
+- `docs/`: Project documentation.
+- `models/`: Saved models and checkpoints.
+- `notebooks/`: Jupyter notebooks for exploration and training.
+- `src/`: Source code for the project.
+- `tests/`: Unit and integration tests.
+
+## Setup
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the main script: `python main.py`
+
+## Usage
+Detailed usage instructions can be found in `docs/usage_instructions.md`.
