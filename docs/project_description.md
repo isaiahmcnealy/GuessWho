@@ -12,38 +12,6 @@ The final goal of this project is to deploy a robust facial recognition model ca
 
 This project is organized into several key directories and files, as shown below. Each section provides a brief overview of the purpose of each directory and file:
 
-GuessWho
-├── docs/
-│   ├── project_description.md
-│   └── usage_instructions.md
-├── notebooks/
-│   ├── data_exploration.ipynb
-│   └── model_training.ipynb
-├── src/
-│   ├── data/
-│   │   ├── __init__.py
-│   │   ├── data_loader.py
-│   │   └── data_preprocessor.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── model.py
-│   │   └── train.py
-│   └── utils/
-│       ├── __init__.py
-│       └── helper_functions.py
-├── tests/
-│   ├── data/
-│   │   ├── __init__.py
-│   │   ├── test_data_loader.py
-│   │   ├── test_module.py
-│   │   └── test_utils.py
-├── .gitignore
-├── LICENSE
-├── main.py
-├── README.md
-├── requirements.txt
-└── setup.py
-
 ### Directory and File Breakdown
 
 - **docs/**: This folder contains documentation files for the project.
